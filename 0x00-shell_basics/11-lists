@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al $PWD $(dirname "$PWD") /boot
+ls -la --sort=none $PWD $(dirname "$PWD") /boot
